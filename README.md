@@ -1,5 +1,5 @@
 # responsive-navbar
-## a simple navbar responsive
+a simple responsive navbar.
 
 
 
