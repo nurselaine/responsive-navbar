@@ -1,8 +1,10 @@
 # responsive-navbar
-a simple navbar responsive
+## a simple navbar responsive
 
 
 
 
-https://user-images.githubusercontent.com/28671231/171039586-a4f17a34-142d-46de-aea8-f441397027a1.mp4
+
+# preview
+https://user-images.githubusercontent.com/28671231/171058136-d5499aca-5552-4a91-9515-53bc308c6e27.mp4
 
