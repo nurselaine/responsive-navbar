@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/*VARIABLES :*/
+:root {
+  --textColor: #414141;
+  --burgerBG: #333;
+  --shadowColor: #c5c5c6;
+  --bg: #fafafa;
+  --fsBigScreen: 1rem;
+  --fsPhoneScreen: 0.9rem;
+}
+
 /*RESET */
 *,
 ::before,
@@ -30,13 +40,6 @@ body {
   font-size: 62.5%;
 }
 
-:root {
-  --textColor: #414141;
-  --burgerBG: #333;
-  --shadowColor: #c5c5c6;
-  --bg: #fafafa;
-}
-
 /*NAVBAR :*/
 nav {
   position: fixed;
@@ -44,8 +47,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1rem;
-  padding: 1rem 2rem;
+  font-size: var(--fsBigScreen);
+  padding: 1rem 10rem;
   background: #fafafa;
   box-shadow: inset 0px -1px 0px var(--shadowColor);
 }
@@ -57,12 +60,14 @@ nav {
 }
 
 .logoTitle {
-  font-size: 1.2rem;
+  font-size: calc(var(--fsBigScreen) + 0.1rem) ;
+  font-weight: bold;
 }
 
 .navlinks {
   display: flex;
   align-items: center;
+  gap: 2rem;
 }
 
 .navlinks-container {
@@ -106,7 +111,7 @@ img {
   nav {
     padding: 15px 20px;
     position: relative;
-    font-size: 0.9rem;
+    font-size: var(--fsPhoneScreen);
   }
 
   .nav-icon {
